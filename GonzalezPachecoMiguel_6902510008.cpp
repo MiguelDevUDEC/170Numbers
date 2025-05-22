@@ -101,6 +101,10 @@ int main() {
     cout << "Adults: " << counterAdults << endl;
     cout << "Old: " << counterOld << endl;
     cout << "The average age of the population is: " << average << endl;
+    cout << "The average age of the kids is: " << averageKids << endl;
+    cout << "The average age of the teens is: " << averageTeens << endl;
+    cout << "The average age of the adults is: " << averageAdults << endl;
+    cout << "The average age of the old is: " << averageOld << endl;
     cout << "The variance of the kids' population is: " << varianceKids << endl;
     cout << "The variance of the teens' population is: " << varianceTeens << endl;
     cout << "The variance of the adults' population is: " << varianceAdults << endl;
