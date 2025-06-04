@@ -19,10 +19,23 @@ int main() {
     srand(time(NULL));
     while (count < 175) {
         int age = (rand() % 80) + 1;
-        if (age <= 12) counterKids++;
-        if (age >= 13 && age <= 17) counterTeens++;
-        if (age >= 18 && age <= 60) counterAdults++;
-        if (age >= 61) counterOld++;
+        cout << "La edad agregada en la posicion " << count << " es: " << age << " entra en la categoria: " << endl;
+        if (age <= 12){
+          counterKids++;
+          cout << "Kids" << endl;
+          }
+        if (age >= 13 && age <= 17) {
+          counterTeens++;
+          cout << "Teens" << endl;
+          }
+        if (age >= 18 && age <= 60){
+          counterAdults++;
+          cout << "Adults" << endl;
+          }
+        if (age >= 61) {
+          counterOld++;
+          cout << "Old" << endl;
+          }
         sum += age;
         ages[count] = age;
         count++;
